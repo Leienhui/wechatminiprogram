@@ -1,0 +1,10 @@
+<view>
+<!-- 使用test组件 -->
+<test></test>
+<!-- 父亲给儿子传值  -->
+<!-- 相当于父亲想test这个组件儿子传递自定义属性，儿子在自己的.js文件中的properties属性中自定义一个info属性，指定属性类型和初始值 -->
+<test info="我是自定义属性啊~~~~~"></test>
+<!-- addM儿子给父亲的事件 -->
+<test bind:addM="addM"></test>
+<view>{{m}}</view>
+</view>

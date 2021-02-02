@@ -1,0 +1,11 @@
+<view>我是test组件</view>
+<view>{{a}}</view>
+<view>{{b}}</view>
+<view>{{c}}</view>
+<view>接收父组件传递来的数据=====</view>
+<!-- 在properties定义出来 -->
+<view>我收到的自定义属性info是：{{info}}</view>
+<button bindtap="AddB">b++</button>
+<view>儿子给父组件传递来的数据===</view>
+<!-- 在组件中定义该函数 -->
+<button bindtap="addM">我想给m加上3</button>

@@ -1,0 +1,8 @@
+<view>
+<import src="./template.wxml"></import>
+<!-- 使用模板，通过is属性调用 -->
+<!-- data用于取js中的data中的属性，以便定义部分可以使用数据 -->
+<!-- template的数据都是公有化的，每个template 都一样 -->
+<template is="myTemplate" data="{{...myData}}"></template>
+<template is="myTemplate" data="{{...myData}}"></template>
+</view>
